@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class TriangleArea {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        double base, height;
+        double base , height;
         System.out.print("Enter base in inches : ");
         base = sc.nextDouble();
 
