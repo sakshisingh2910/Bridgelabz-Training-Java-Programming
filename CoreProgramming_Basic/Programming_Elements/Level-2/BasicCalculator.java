@@ -13,8 +13,8 @@ public class BasicCalculator {
         double multiplication = number1 * number2;
         double division = number1 / number2;
 
-        System.out.println("The addition, subtraction, multiplication, and division value of "
-                + number1 + " and " + number2 + " is "
+        System.out.println("The addition, subtraction, multiplication, and division value of " + number1 + " and " + number2 + " is "
                 + addition + ", " + subtraction + ", " + multiplication + ", and " + division);
+                
     }
 }
