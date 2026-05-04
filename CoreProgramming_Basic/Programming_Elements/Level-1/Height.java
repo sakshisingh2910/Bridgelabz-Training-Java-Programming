@@ -13,5 +13,6 @@ class Height {
         System.out.println("Your Height in cm is " + cm + 
         " while in feet is " + feet + 
         " and inches is " + remainingInches);
+        sc.close();
     }
 }

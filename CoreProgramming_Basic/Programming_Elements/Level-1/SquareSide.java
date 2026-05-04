@@ -8,6 +8,7 @@ public class SquareSide {
         perimeter = sc.nextDouble();
         double side = perimeter / 4;
         System.out.println("The length of the side is " + side +  " whose perimeter is " + perimeter);
+        sc.close();
     }
     
 }

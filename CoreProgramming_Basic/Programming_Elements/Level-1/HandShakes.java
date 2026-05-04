@@ -10,7 +10,7 @@ public class HandShakes {
         numberOfStudents = sc.nextInt();
         int handshakes = (numberOfStudents * (numberOfStudents - 1)) / 2;
         System.out.println("The maximum number of handshakes is " + handshakes);
-
+        sc.close();
         
     }
 }
