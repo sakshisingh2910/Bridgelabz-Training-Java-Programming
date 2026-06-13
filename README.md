@@ -97,7 +97,7 @@ DataStructureAndAlgorithms
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ### Compile a Java file
 
