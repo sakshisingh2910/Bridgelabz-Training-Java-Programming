@@ -1,271 +1,64 @@
-# Design & Modelling in Java
+# Design Modelling in Java
+A comprehensive collection of Object-Oriented Design Principles and Design Patterns implemented using Java.
 
-A collection of Design Principles, Design Patterns, and Object-Oriented Design concepts implemented in Java.
+## Overview
+This repository contains the implementation of various software design principles and design patterns that help in building scalable, maintainable, reusable, and loosely coupled applications.
 
+The goal of this repository is to strengthen understanding of software design concepts commonly used in industry and technical interviews.
 ---
 
-## 📌 Topics Covered
+## Topics Covered
 
 ### Design Principles
 
-* DRY (Don't Repeat Yourself)
-* YAGNI (You Aren't Gonna Need It)
-* KISS (Keep It Simple, Stupid)
-* SOLID Principles
+- DRY (Don't Repeat Yourself)
+- YAGNI (You Aren't Gonna Need It)
+- Single Responsibility Principle (SRP)
+- Open Closed Principle (OCP)
+- Liskov Substitution Principle (LSP)
+- Interface Segregation Principle (ISP)
+- Dependency Inversion Principle (DIP)
 
-### SOLID Principles
+### Design Patterns
 
-* Single Responsibility Principle (SRP)
-* Open Closed Principle (OCP)
-* Liskov Substitution Principle (LSP)
-* Interface Segregation Principle (ISP)
-* Dependency Inversion Principle (DIP)
-
-### Creational Design Patterns
-
-* Singleton Pattern
-* Factory Method Pattern
-* Abstract Factory Pattern
-* Builder Pattern
-
-### Structural Design Patterns
-
-* Adapter Pattern
-* Decorator Pattern
-* Facade Pattern
-
-### Behavioral Design Patterns
-
-* Observer Pattern
-* Strategy Pattern
-* Command Pattern
+- Singleton Pattern
+- Factory Pattern
+- Builder Pattern
+- Decorator Pattern
+- Observer Pattern
 
 ---
 
-# DRY Principle
+## Learning Outcomes
 
-## Definition
-
-Avoid code duplication by placing common logic in a single reusable location.
-
-## Benefits
-
-* Improved maintainability
-* Reduced code duplication
-* Easier updates and bug fixes
-
-## Example
-
-```java
-class DiscountUtil {
-
-    public static double calculateDiscount(double price) {
-        return price * 0.10;
-    }
-}
-```
+- Understand core software design principles.
+- Learn the importance of low coupling and high cohesion.
+- Implement commonly used design patterns in Java.
+- Improve code maintainability and scalability.
+- Apply object-oriented design best practices.
 
 ---
 
-# YAGNI Principle
+## Technology Used
 
-## Definition
-
-Implement only what is currently required.
-
-## Benefits
-
-* Less complexity
-* Faster development
-* Easier maintenance
-
-## Example
-
-```java
-class Student {
-
-    private String name;
-
-    public Student(String name) {
-        this.name = name;
-    }
-}
-```
+- Java
+- Object-Oriented Programming (OOP)
+- Design Principles
+- Design Patterns
 
 ---
 
-# SOLID Principles
+## How to Run
 
-## S - Single Responsibility Principle (SRP)
+### Compile a Java file
 
-### Definition
+```bash
+javac FileName.java
 
-A class should have only one reason to change.
-
-### Example
-
-```java
-class StudentService {
-
-    public void saveStudent() {
-        System.out.println("Student Saved");
-    }
-}
-
-class ReportService {
-
-    public void generateReport() {
-        System.out.println("Report Generated");
-    }
-}
-```
-
----
-
-## O - Open Closed Principle (OCP)
-
-### Definition
-
-Software entities should be open for extension but closed for modification.
-
-### Example
-
-```java
-interface Payment {
-    void pay();
-}
-
-class UpiPayment implements Payment {
-
-    public void pay() {
-        System.out.println("UPI Payment");
-    }
-}
-```
-
----
-
-## L - Liskov Substitution Principle (LSP)
-
-### Definition
-
-Derived classes should be replaceable by their base classes.
-
-### Example
-
-```java
-class Bird {
-
-    public void eat() {
-        System.out.println("Bird Eating");
-    }
-}
-
-class Sparrow extends Bird {
-}
-```
-
----
-
-## I - Interface Segregation Principle (ISP)
-
-### Definition
-
-Clients should not be forced to implement methods they do not use.
-
-### Example
-
-```java
-interface Workable {
-    void work();
-}
-
-interface Eatable {
-    void eat();
-}
-```
-
----
-
-## D - Dependency Inversion Principle (DIP)
-
-### Definition
-
-Depend on abstractions, not concrete implementations.
-
-### Example
-
-```java
-interface Database {
-    void connect();
-}
-
-class MySQLDatabase implements Database {
-
-    public void connect() {
-        System.out.println("Connected MySQL");
-    }
-}
-```
-
----
-
-# Project Structure
-
-```text
-src/
-│
-├── principles/
-│   ├── DRY
-│   ├── YAGNI
-│   └── SOLID
-│
-├── creational/
-│   ├── Singleton
-│   ├── FactoryMethod
-│   ├── AbstractFactory
-│   └── Builder
-│
-├── structural/
-│   ├── Adapter
-│   ├── Decorator
-│   └── Facade
-│
-└── behavioral/
-    ├── Observer
-    ├── Strategy
-    └── Command
-```
-
----
-
-# Technologies Used
-
-* Java
-* Object-Oriented Programming (OOP)
-* Design Principles
-* Design Patterns
-
----
-
-# Learning Outcomes
-
-By completing this repository, you will understand:
-
-* Object-Oriented Design
-* SOLID Principles
-* DRY and YAGNI
-* Creational Design Patterns
-* Structural Design Patterns
-* Behavioral Design Patterns
-* Real-world Java Design Practices
-
----
-
-# Author
+Author
 
 Sakshi Singh
 
 B.Tech Computer Science Engineering
 
-Java | DSA | Design Patterns | System Design
+Java | DSA | Design Patterns | Software Design
