@@ -50,11 +50,25 @@ The goal of this repository is to strengthen understanding of software design co
 
 ## How to Run
 
-### Compile a Java file
+Compile a Java file:
 
 ```bash
 javac FileName.java
+```
 
+Run the program:
+
+```bash
+java FileName
+```
+
+Example:
+
+```bash
+javac Main.java
+java Main
+```
+---
 Author
 
 Sakshi Singh
