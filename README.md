@@ -97,7 +97,7 @@ DataStructureAndAlgorithms
 
 ---
 
-## How to Run
+## ▶️ How to Run
 
 ### Compile a Java file
 
@@ -157,5 +157,3 @@ B.Tech Computer Science Engineering
 Java | DSA | Problem Solving | Software Development
 
 ---
-
-⭐ This repository is part of my Java Development and Data Structures & Algorithms learning journey.
