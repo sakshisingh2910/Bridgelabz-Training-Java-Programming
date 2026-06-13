@@ -4,7 +4,6 @@ A comprehensive collection of Object-Oriented Design Principles and Design Patte
 ## Overview
 This repository contains the implementation of various software design principles and design patterns that help in building scalable, maintainable, reusable, and loosely coupled applications.
 
-The goal of this repository is to strengthen understanding of software design concepts commonly used in industry and technical interviews.
 ---
 
 ## Topics Covered
@@ -28,17 +27,33 @@ The goal of this repository is to strengthen understanding of software design co
 - Observer Pattern
 
 ---
+## Project Structure
 
-## Learning Outcomes
-
-- Understand core software design principles.
-- Learn the importance of low coupling and high cohesion.
-- Implement commonly used design patterns in Java.
-- Improve code maintainability and scalability.
-- Apply object-oriented design best practices.
-
----
-
+```text
+Design_Modelling
+│
+├── Design_Principles
+│   ├── DRY
+│   ├── YAGNI
+│   ├── SOLID_Principles
+│   │   ├── SingleResponsibilityPrinciple
+│   │   ├── OpenClosedPrinciple
+│   │   ├── LiskovSubstitutionPrinciple
+│   │   ├── InterfaceSegregationPrinciple
+│   │   └── DependencyInversionPrinciple
+│
+└── Design_Patterns
+    ├── Creational_Patterns
+    │   ├── SingletonPattern
+    │   ├── FactoryPattern
+    │   └── BuilderPattern
+    │
+    ├── Structural_Patterns
+    │   └── DecoratorPattern
+    │
+    └── Behavioral_Patterns
+        └── ObserverPattern
+``` 
 ## Technology Used
 
 - Java
@@ -68,6 +83,15 @@ Example:
 javac Main.java
 java Main
 ```
+---
+## Learning Outcomes
+
+- Understand core software design principles.
+- Learn the importance of low coupling and high cohesion.
+- Implement commonly used design patterns in Java.
+- Improve code maintainability and scalability.
+- Apply object-oriented design best practices.
+
 ---
 Author
 
