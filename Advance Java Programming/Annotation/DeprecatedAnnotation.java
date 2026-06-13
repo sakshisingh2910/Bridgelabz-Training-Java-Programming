@@ -1,3 +1,4 @@
+package Annotation;
 @Deprecated
 class Old{
     void display(){
